@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "route": "api/*",
+      "allowedRoles": [ "anonymous" ]
+    }
+  ],
+  "platform": {
+    "apiRuntime": "node:18"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+}

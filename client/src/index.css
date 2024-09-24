@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-family: "Tiempos";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+  }
+  
+p, div {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-style: normal;
+}
